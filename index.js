@@ -24,6 +24,8 @@ async function getMovie() {
       
       
       });
+      compareActors();
+
     });
   
   } catch (err) {
@@ -45,15 +47,19 @@ async function compareActors() {
       `https://api.themoviedb.org/3/search/person?api_key=17c9d39e63049e126ad75c88b296d1f1&language=en-US&query=${movie}&page=1&include_adult=false`
       // `https://api.themoviedb.org/3/search/person/${movie}/movie_credits?api_key=17c9d39e63049e126ad75c88b296d1f1&language=en-US`
     ); 
-    then(
+    data.results.map(item => {
+
+        item.known_for.forEach(element => {
+          console.log("Movie Title\n ", element)
+        
+        
+       });
       if( a > b) {
         console.log("a is in more movies than b")
       } else if(a < b) {
         console.log("b is in more movies than a")
       } else { "a and b are in the same amont of movies."
       }
-    );
-  } catch (err) {
+    })} catch (err) {
     console.log(err);
-  }
-  }
+  }};
