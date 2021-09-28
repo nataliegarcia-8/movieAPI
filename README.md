@@ -4,24 +4,25 @@ Now you can search all your favorite actors to see what movies they have been in
 
 - [GitHub Link](https://github.com/nataliegarcia-8/movieAPI)
 
+
 ## User Story
 
 ```
-AS AN individual who enjoys movies and acting,
-I WANT to be able to easily search what movies actors are in,
-SO THAT I can keep up with what my favorite actors are starring in
+AS AN individual who enjoys movies and actors,
+I WANT to be able to easily search actors movie credits,
+SO THAT I can keep up with what movies my favorite actors are in
 ```
 
 ## Table of Contents
-
 
 * [Installation](#installation)
 * [Questions](#questions)
 * [Contributors](#contributors)
 
+
 # Installation
 
-To run this application locally please do the following;
+To run this application locally please do the following:
 
 Following downloading the repository, using your termial, enter into the repository folder and enter into your terminal:
 - npm install
@@ -29,7 +30,7 @@ Following downloading the repository, using your termial, enter into the reposit
 Once all requirements are installed in your terminal enter:
 - node .
 
-This will begin your prompt in the Command Line Interface and the user can follow along with the prompts and enter responses directly in the terminal. 
+This will begin the prompt in the Command Line Interface and the user can follow along with the prompts and enter responses directly in the terminal. 
 
 
 # Questions
